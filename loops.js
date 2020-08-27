@@ -25,5 +25,5 @@ function incrementVariable() {
 function doWhileLoop(number){
   do {
     console.log("I run once regardless.");
-  } while (incrementVariable() < number );
+  } while (incrementVariable() <= number );
 }
